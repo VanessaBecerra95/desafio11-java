@@ -42,9 +42,7 @@ public class Menu {
                         break;
                     case 4:
                         Utilidad.limpiarPantalla();
-                        System.out.println("Abandonando el sistema de clientes...");
                         Utilidad.tiempoEspera();
-                        System.out.println("Acaba de salir del sistema ");
                         break;
                     default:
                         System.out.println("Opción no válida, ingrese un valor entre 1 a 4.");
